@@ -1,11 +1,20 @@
-
 import './App.css';
-import ActorsPage from './components/ActorsPage';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import ActorsPage from './components/ActorsPage'
+import { Container } from 'react-bootstrap';
+
+
+
 
 function App() {
+
   return (
-    <div >
-      <ActorsPage/>
+    <div className="bg">
+      <Container>
+        <ActorsPage/>
+      </Container>
+
 
     </div>
   );
